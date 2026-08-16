@@ -198,7 +198,7 @@ h1 {
         width: 813px;
         flex-wrap: balance;
         position: relative;
-        top: 275px;
+        top: 214px;
     }
 
     .cardapio {
@@ -236,6 +236,7 @@ h1 {
 
     .cardapio img {
         display: block;
+        position: relative;
         left: 95px;
         top: 27px;
     }
