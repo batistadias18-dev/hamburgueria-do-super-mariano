@@ -172,7 +172,7 @@ h1 {
     }
 
     .caixa-img img {
-        width: 118vh;
+        width: 120vh;
         height: 530vw;
     }
 
@@ -184,11 +184,6 @@ h1 {
         padding: 60px;
 
     }
-
-    .div-1 p {
-        font-size: 41px;
-    }
-
     .div-1 h1 {
         font-size: 54px;
     }
@@ -214,8 +209,8 @@ h1 {
     .div-1 p{
         height: auto;
         font-style: italic;
-        font-size: larger;
-        display: grid
+        font-size: 35px;
+        display: grid;
     }
 
 
