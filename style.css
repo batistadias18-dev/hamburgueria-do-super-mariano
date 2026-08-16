@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 0;
+}
+
+.caixa-img {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    filter: brightness(35%);
+}
+
+.caixa-img img {
+    min-width: 100vw;
+    height: 100vh;
+}
+
+.logo {
+    display: flex;
+    margin-top: 20px;
+    width: 100px;
+    height: 150px;
+}
+
+.cardapio2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: row;
+    padding: 100px;
+    height: 100vh;
+}
+
+.cardapio {
+    display: flex;
+    justify-content: space-around;
+    align-items: row;
+    padding: 100px;
+    height: 100vh;
+}
+
+.caixa-whatsapp {
+    position: fixed;
+    bottom: 15px;
+    right: 12px;
+    cursor: pointer;
+
+}
+
+.site-whatsapp img {
+    width: 60px;
+}
+
+body {
+    height: 100vh;
+}
+
+.div-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.div-1 p {
+    color: white;
+    font-size: 20px;
+    top: 50px;
+    position: relative;
+    font-size: 25px;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+
+}
+
+.caixa-cardapio {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color: aliceblue;
+    margin-top: 50px;
+
+}
+
+.cardapio img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+    top: 50px;
+}
+
+.cardapio img:hover {
+    transform: scale(1.1);
+}
+
+.cardapio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+    height: 150px;
+}
+
+.cardapio2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+    height: 150px;
+
+}
+
+.cardapio2 img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.cardapio2 img:hover {
+    transform: scale(1.1);
+}
+
+.cardapio h3 {
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.cardapio p {
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.cardapio2 h3 {
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.cardapio2 p {
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1100px) {
+    .caixa-principal {
+        padding: 30px;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 30px;
+    }
+
+    .div-1 {
+        width: 215%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 80px;
+    }
+
+    .caixa-img img {
+        width: 115vh;
+        height: 530vw;
+    }
+
+    .caixa-cardapio {
+        width: 215%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 60px;
+
+    }
+
+    .div-1 p {
+        font-size: 41px;
+    }
+
+    .div-1 h1 {
+        font-size: 54px;
+    }
+
+    .cardapio2 {
+        height: 318px;
+        display: flex;
+        gap: 32px;
+        width: 813px;
+
+    }
+
+    .cardapio {
+        height: 63px;
+        display: flex;
+        gap: 32px;
+        width: 813px;
+
+    }
+    .caixa-whatsapp img{
+        width: 140px;
+    }
+
+
+
+}
