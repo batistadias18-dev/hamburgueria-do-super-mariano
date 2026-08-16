@@ -172,7 +172,7 @@ h1 {
     }
 
     .caixa-img img {
-        width: 115vh;
+        width: 118vh;
         height: 530vw;
     }
 
@@ -210,6 +210,12 @@ h1 {
     }
     .caixa-whatsapp img{
         width: 140px;
+    }
+    .div-1 p{
+        height: auto;
+        font-style: italic;
+        font-size: larger;
+        display: grid
     }
 
 
