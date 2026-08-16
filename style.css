@@ -233,14 +233,6 @@ h1 {
         top: 42px;
         position: relative;
     }
-
-    .cardapio img {
-        display: block;
-        position: relative;
-        left: 95px;
-        top: 27px;
-    }
-
     .cardapio2 p {
         font-size: 25px;
         top: 42px;
@@ -252,15 +244,4 @@ h1 {
         top: 42px;
         position: relative;
     }
-
-    .cardapio2 img {
-        display: block;
-        left: 95px;
-        top: 55px;
-        padding: 80px;
-    }
-
-
-
-
 }
