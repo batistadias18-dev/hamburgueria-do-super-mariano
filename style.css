@@ -236,9 +236,7 @@ h1 {
 
     .cardapio img {
         display: block;
-        position: relative;
         left: 95px;
-        top: 27px;
     }
 
     .cardapio2 p {
