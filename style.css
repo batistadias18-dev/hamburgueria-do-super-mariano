@@ -199,6 +199,7 @@ h1 {
         flex-wrap: balance;
         position: relative;
         top: 214px;
+        justify-content: center;
     }
 
     .cardapio {
@@ -209,11 +210,12 @@ h1 {
         flex-wrap: balance;
         top: -109px;
         position: relative;
+        justify-content: center;
 
     }
 
     .caixa-whatsapp img {
-        width: 110px;
+        width: 72px;
     }
 
     .div-1 p {
@@ -222,6 +224,40 @@ h1 {
         font-size: 35px;
         display: grid;
     }
+
+    .cardapio p {
+        font-size: 25px;
+    }
+
+    .cardapio h3 {
+        font-size: 35px;
+    }
+
+    .cardapio img {
+        display: block;
+        position: relative;
+        left: 95px;
+        top: -15px;
+    }
+     .cardapio2 p {
+        font-size: 25px;
+        top: 42px;
+        position: relative;
+    }
+
+    .cardapio2 h3 {
+        font-size: 35px;
+        top: 42px;
+        position: relative;
+    }
+
+    .cardapio2 img {
+        display: block;
+        position: relative;
+        left: 95px;
+        top: 30px;
+    }
+
 
 
 
