@@ -169,11 +169,13 @@ h1 {
         flex-direction: column;
         align-items: center;
         padding: 80px;
+        top: 70px;
+        position: relative;
     }
 
     .caixa-img img {
-        width: 120vh;
-        height: 530vw;
+        width: 280vw;
+        height: 274vh;
     }
 
     .caixa-cardapio {
@@ -184,16 +186,19 @@ h1 {
         padding: 60px;
 
     }
+
     .div-1 h1 {
-        font-size: 51px;
+        font-size: 45px;
     }
 
     .cardapio2 {
-        height: 318px;
+        height: 63px;
         display: flex;
         gap: 32px;
         width: 813px;
-
+        flex-wrap: balance;
+        position: relative;
+        top: 214px;
     }
 
     .cardapio {
@@ -201,12 +206,17 @@ h1 {
         display: flex;
         gap: 32px;
         width: 813px;
+        flex-wrap: balance;
+        top: -109px;
+        position: relative;
 
     }
-    .caixa-whatsapp img{
-        width: 140px;
+
+    .caixa-whatsapp img {
+        width: 110px;
     }
-    .div-1 p{
+
+    .div-1 p {
         height: auto;
         font-style: italic;
         font-size: 35px;
