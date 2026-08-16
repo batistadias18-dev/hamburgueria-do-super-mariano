@@ -199,7 +199,6 @@ h1 {
         flex-wrap: balance;
         position: relative;
         top: 214px;
-        justify-content: center;
     }
 
     .cardapio {
@@ -210,8 +209,6 @@ h1 {
         flex-wrap: balance;
         top: -109px;
         position: relative;
-        justify-content: center;
-
     }
 
     .caixa-whatsapp img {
